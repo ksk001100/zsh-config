@@ -1,10 +1,10 @@
-source ./modules/me/config.zsh
-source ./modules/me/alias.zsh
-source ./modules/me/go.zsh
-source ./modules/me/js.zsh
-source ./modules/me/php.zsh
-source ./modules/me/python.zsh
-source ./modules/me/ruby.zsh
-source ./modules/me/rust.zsh
+source $(cd $(dirname $0); pwd)/modules/me/config.zsh
+source $(cd $(dirname $0); pwd)/modules/me/alias.zsh
+source $(cd $(dirname $0); pwd)/modules/me/go.zsh
+source $(cd $(dirname $0); pwd)/modules/me/js.zsh
+source $(cd $(dirname $0); pwd)/modules/me/php.zsh
+source $(cd $(dirname $0); pwd)/modules/me/python.zsh
+source $(cd $(dirname $0); pwd)/modules/me/ruby.zsh
+source $(cd $(dirname $0); pwd)/modules/me/rust.zsh
 
 # Environment specific here...
